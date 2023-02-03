@@ -129,11 +129,13 @@ def train(
                 correct += (predictions == labels).sum().item()
         # Calculate the accuracy:
         accuracy = correct / total
+        print(accuracy)
         # Update the progress bar:
         progress_bar.set_description(f"Epoch: {epoch}, Accuracy: {accuracy:.4f}")
 
 
 def main():
+
     # Get the data:
     train_loader, test_loader = get_mnist_data()
     # Create the model:
