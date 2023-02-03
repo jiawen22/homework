@@ -135,7 +135,7 @@ def train(
 
 
 def main():
-
+    # try
     # Get the data:
     train_loader, test_loader = get_mnist_data()
     # Create the model:
