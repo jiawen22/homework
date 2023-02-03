@@ -33,7 +33,6 @@ class MLP(torch.nn.Module):
         super().__init__()
         self.hidden_count = hidden_count
 
-
         self.input_layer = torch.nn.Linear(input_size, hidden_size)
         self.hidden_layers = torch.nn.ModuleList(
             [torch.nn.Linear(hidden_size, hidden_size) for _ in range(hidden_count - 1)]
