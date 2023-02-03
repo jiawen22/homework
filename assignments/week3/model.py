@@ -24,10 +24,11 @@ class MLP(torch.nn.Module):
         """
         super().__init__()
         self.hidden_layers = torch.nn.ModuleList(
-            [torch.nn.Linear(input_size, hidden_size)])
+            [torch.nn.Linear(input_size, hidden_size)]
+        )
         self.hidden_layers.extend(
-            [torch.nn.Linear(hidden_size, hidden_size) for _ in
-             range(hidden_count - 1)])
+            [torch.nn.Linear(hidden_size, hidden_size) for _ in range(hidden_count - 1)]
+        )
         self.output_layer = torch.nn.Linear(hidden_size, num_classes)
         self.activation = activation()
 
@@ -49,4 +50,3 @@ class MLP(torch.nn.Module):
         for layer in self.hidden_layers:
             x = self.activation(layer(x))
         return self.output_layer(x)
-
