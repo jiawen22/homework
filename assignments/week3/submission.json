@@ -11,9 +11,6 @@
         }
     ],
     "sources": [
-        "ChatGPT",
-        "https://example.com",
-        "Conversations with TA (include TA's name)",
-        "LLM (include information about the LLM and how it was used)"
+        "ChatGPT: chatgpt helped us build the model"
     ]
 }
