@@ -3,7 +3,7 @@
     "contributors": [
 
         {"name": "Jiawen Zhang", "pennkey": "jiawen22"},
-        {"name": "Yuezhu Chen", "pennkey": "yuezhuc"},
+        {"name": "Yuezhu Chen", "pennkey": "yuezhuc"}
     ],
-    "sources": ["ChatGPT: chatgpt helped us build the model"],
+    "sources": ["ChatGPT: chatgpt helped us build the model"]
 }
