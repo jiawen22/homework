@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df78caa6-0ff6-4bad-a07f-4e97b4ea0ace" name="Default Changelist" comment="" />
+    <list default="true" id="df78caa6-0ff6-4bad-a07f-4e97b4ea0ace" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +15,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/week3/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1410">
+            <state relative-caret-position="1620">
               <caret line="108" column="28" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
               <folding>
                 <element signature="e#55#93#0" expanded="true" />
@@ -26,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/assignments/week3/model_factory.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -46,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/week3/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
+            <state relative-caret-position="930">
               <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
@@ -58,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/week3/test_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
+            <state relative-caret-position="510">
               <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -108,12 +110,6 @@
               <item name="homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="homework" type="462c0819:PsiDirectoryNode" />
               <item name="assignments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="assignments" type="462c0819:PsiDirectoryNode" />
-              <item name="week3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -442,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675528746508</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="update">
+      <created>1675815172350</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1675815172350</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -482,9 +485,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="79" y="25" width="1344" height="819" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14976959" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15668203" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -612,30 +614,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignments/week3/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
+        <state relative-caret-position="1620">
           <caret line="108" column="28" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
           <folding>
             <element signature="e#55#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/week3/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/week3/test_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -647,10 +629,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/week3/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/week3/test_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/week3/model_factory.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
