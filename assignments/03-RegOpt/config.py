@@ -10,7 +10,7 @@ class CONFIG:
     num_epochs = 10
     initial_learning_rate = 0.0008
 
-    T_mult = 2
+    T_mult = 3
     eta_min = 0.0001
     T_0 = 10
 
