@@ -11,7 +11,7 @@ class CONFIG:
     initial_learning_rate = 0.0008
 
     T_mult = 3
-    eta_min = 0.0001
+    eta_min = 0.0004
     T_0 = 10
 
     lrs_kwargs = {
