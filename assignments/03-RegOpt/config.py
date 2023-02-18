@@ -28,4 +28,4 @@ class CONFIG:
         model.parameters(), lr=CONFIG.initial_learning_rate
     )
 
-    transforms = Compose([ToTensor(), Normalize([0.5, 0.5, 0.5], [0.5, 0.5, 0.5])])
+    transforms = Compose([ToTensor(), Normalize([0.485, 0.456, 0.4],[0.229, 0.224, 0.2])])
