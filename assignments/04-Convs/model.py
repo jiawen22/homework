@@ -18,8 +18,8 @@ class Model(torch.nn.Module):
         )
         self.max_pool = nn.MaxPool2d(kernel_size=2, stride=2)
         self.batchnorm = nn.BatchNorm2d(16)
-        self.fc1 = nn.Linear(784, 35)
-        self.fc2 = nn.Linear(35, num_classes)
+        self.fc1 = nn.Linear(784, 50)
+        self.fc2 = nn.Linear(50, num_classes)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         """
