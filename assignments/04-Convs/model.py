@@ -2,8 +2,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-torch.manual_seed(1234)
-
 
 class Model(torch.nn.Module):
     """
