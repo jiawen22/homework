@@ -13,9 +13,7 @@ class Model(torch.nn.Module):
         Initialize the model
         """
         super().__init__()
-        self.conv_layer1 = nn.Conv2d(
-            in_channels=num_channels, out_channels=16, kernel_size=3, stride=2
-        )
+        self.conv_layer1 = nn.Conv2d(num_channels, 16, 3, 2)
         self.max_pool = nn.MaxPool2d(kernel_size=2, stride=2)
         self.batchnorm = nn.BatchNorm2d(16)
         self.fc1 = nn.Linear(784, 35)
