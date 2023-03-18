@@ -10,16 +10,14 @@ class CONFIG:
     num_epochs = 10
     initial_learning_rate = 0.0008
 
-<<<<<<< HEAD
     T_mult = 3
     eta_min = 0.0004
     T_0 = 10
-=======
+
     batch_size = 64
     num_epochs = 2
     initial_learning_rate = 0.001
     initial_weight_decay = 0
->>>>>>> 5ad00bb40161ca7ff7a77097884fe72f299ed050
 
     lrs_kwargs = {
         # You can pass arguments to the learning rate scheduler
@@ -32,7 +30,11 @@ class CONFIG:
     optimizer_factory: Callable[
         [nn.Module], torch.optim.Optimizer
     ] = lambda model: torch.optim.Adam(
-        model.parameters(), lr=CONFIG.initial_learning_rate, weight_decay=CONFIG.initial_weight_decay,
+        model.parameters(),
+        lr=CONFIG.initial_learning_rate,
+        weight_decay=CONFIG.initial_weight_decay,
     )
 
-    transforms = Compose([ToTensor(), Normalize([0.485, 0.456, 0.4],[0.229, 0.224, 0.2])])
+    transforms = Compose(
+        [ToTensor(), Normalize([0.485, 0.456, 0.4], [0.229, 0.224, 0.2])]
+    )
