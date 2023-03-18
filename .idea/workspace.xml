@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df78caa6-0ff6-4bad-a07f-4e97b4ea0ace" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assignments/04-Convs/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/04-Convs/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignments/04-Convs/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/04-Convs/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/04-Convs/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignments/04-Convs/model.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignments/04-Convs/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="287">
+              <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -61,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignments/04-Convs/submission.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="90">
+              <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -86,10 +85,10 @@
         <option value="$PROJECT_DIR$/assignments/03-RegOpt/scheduler.py" />
         <option value="$PROJECT_DIR$/assignments/03-RegOpt/submission.json" />
         <option value="$PROJECT_DIR$/assignments/03-RegOpt/config.py" />
-        <option value="$PROJECT_DIR$/assignments/04-Convs/submission.json" />
-        <option value="$PROJECT_DIR$/assignments/04-Convs/model.py" />
         <option value="$PROJECT_DIR$/assignments/04-Convs/main.py" />
         <option value="$PROJECT_DIR$/assignments/04-Convs/config.py" />
+        <option value="$PROJECT_DIR$/assignments/04-Convs/submission.json" />
+        <option value="$PROJECT_DIR$/assignments/04-Convs/model.py" />
       </list>
     </option>
   </component>
@@ -597,7 +596,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679155881711</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="update">
+      <created>1679156225977</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1679156225977</updated>
+    </task>
+    <task id="LOCAL-00046" summary="update">
+      <created>1679156339781</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1679156339781</updated>
+    </task>
+    <task id="LOCAL-00047" summary="update">
+      <created>1679156395252</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1679156395252</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -895,13 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/04-Convs/submission.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/04-Convs/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -909,6 +922,20 @@
           <folding>
             <element signature="e#2#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/04-Convs/submission.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignments/04-Convs/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1291">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -922,17 +949,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignments/04-Convs/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1291">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignments/04-Convs/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="287">
+          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>

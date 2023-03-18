@@ -29,8 +29,8 @@ class Model(torch.nn.Module):
         out = self.batchnorm(out)
         out = self.max_pool(out)
 
-        #out = out.reshape(out.size(0), -1)
-        out = torch.flatten(out,1)
+        # out = out.reshape(out.size(0), -1)
+        out = torch.flatten(out, 1)
         out = self.fc1(out)
         out = F.relu(out)
         out = self.fc2(out)
