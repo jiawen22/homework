@@ -9,7 +9,6 @@ import torch
 from torch.utils.data import DataLoader
 from torchvision.datasets import CIFAR10
 from tqdm import tqdm
-
 from model import Model
 from config import CONFIG
 
