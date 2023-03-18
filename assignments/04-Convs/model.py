@@ -16,8 +16,8 @@ class Model(torch.nn.Module):
         self.conv_layer1 = nn.Conv2d(num_channels, 16, 5, 2)
         self.max_pool = nn.MaxPool2d(kernel_size=2, stride=2)
         self.batchnorm = nn.BatchNorm2d(16)
-        self.fc1 = nn.Linear(784, 35)
-        self.fc2 = nn.Linear(35, num_classes)
+        self.fc1 = nn.Linear(784, 27)
+        self.fc2 = nn.Linear(27, num_classes)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         """
